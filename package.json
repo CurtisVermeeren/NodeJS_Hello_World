@@ -6,6 +6,9 @@
   "scripts": {
     "start": "node hello-server.js"
   },
+  "engines": {
+	"node": "6.9.4"
+  },
   "main": "hello_server.js",
   "dependencies": {},
   "devDependencies": {},
