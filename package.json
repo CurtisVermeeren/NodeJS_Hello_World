@@ -3,8 +3,8 @@
 	"version": "1.0.0",
 	"description":"Node.js Hello World App",
 	"author": "Curtis Vermeeren",
-	"main": "hello_server.js",
-	"scrips": {
-		"start": "node hello_server.js"
+	"main": "hello-server.js",
+	"scripts": {
+		"start": "node hello-server.js"
 	}
 }
