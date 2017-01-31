@@ -12,10 +12,10 @@ var server = http.createServer(function(request, response){
 	response.write(`<!DOCTYPE "html"><html><head><title>Hello World Page</title>`+
 		`</head><body>Hello World!</body></html>`);
     // When we call end() we tell the serve the response headers and body have been sent.
-	// End can also be used like write assuming only one call is needed. 
+	// End can also be used like write assuming only one call is needed.
 	response.end();
 });
 
-// Listen on port 8080
-server.listen(8080);
+var port = process.env.PORT || 8080;
+server.listen(port);
 console.log("Server is Listening");
