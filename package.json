@@ -1,10 +1,21 @@
 {
-	"name": "hello-world",
-	"version": "1.0.0",
-	"description":"Node.js Hello World App",
-	"author": "Curtis Vermeeren",
-	"main": "hello-server.js",
-	"scripts": {
-		"start": "node hello-server.js"
-	}
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Node.js Hello World App",
+  "author": "Curtis Vermeeren",
+  "scripts": {
+    "start": "node hello-server.js"
+  },
+  "main": "hello_server.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CurtisVermeeren/Node.js-Hello-World-.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CurtisVermeeren/Node.js-Hello-World-/issues"
+  },
+  "homepage": "https://github.com/CurtisVermeeren/Node.js-Hello-World-#readme"
 }
