@@ -1,5 +1,3 @@
-Writeup can be found [here.](https://curtisvermeeren.github.io/2017/01/30/Node.js-Hello-World.html)
-
 To start the server type `node hello_server.js` from a console in the directory.
 
 The server is attempted to be bound on port 8080 so if this port is already in
